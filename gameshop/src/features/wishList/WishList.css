@@ -1,0 +1,9 @@
+
+.whislist-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    width: 300px;
+}

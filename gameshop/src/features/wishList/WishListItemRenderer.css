@@ -1,0 +1,19 @@
+.whislist-item {
+  width: 100%;
+  padding: 10px;
+  border-bottom: 1px solid #dddddd;
+  display: flex;
+  justify-content: space-between;
+}
+.whislist-item:last-child {
+    border: 0;
+}
+.whislist-item:nth-child(odd) {
+    background-color: #eee;
+}
+.whislist-item a{
+    cursor: pointer;
+  }
+.game-name{
+    width: 150px;
+}

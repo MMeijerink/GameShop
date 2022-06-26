@@ -1,0 +1,58 @@
+
+@-webkit-keyframes slide {
+    100% { left: 0; }
+}
+
+@keyframes slide {
+    100% { left: 0; }
+}
+
+.panel_show {
+    width: 300px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 15px black;
+    background: white;
+    padding: 10px;
+
+    position: absolute;
+    z-index:3;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    -webkit-transform-origin: 100% 50%;
+    -webkit-transform: translateX(0%);
+    -webkit-transition: -webkit-transform 0.2s ease-in-out;
+    outline: 0;
+  }
+  .panel_show button {
+    border:none;
+    display: flex;
+  }
+  
+  .panel_hide {
+    width: 300px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 15px black;
+    background: white;
+    padding: 10px;
+
+    position: absolute;
+    z-index:3;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    -webkit-transform: translateX(100%);
+    -webkit-transition: -webkit-transform 0.2s ease-in-out;
+    outline: 0;
+  }
+  
+  .panel_hide button {
+    border:none;
+    display: flex;
+  }

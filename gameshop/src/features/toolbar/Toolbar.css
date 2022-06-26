@@ -1,0 +1,42 @@
+.toolbar-container {
+    height: 100%;
+    width: calc(100%-80px); 
+    background: transparent;
+    padding: 0px 40px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+.toolbar-container .title{
+    display: inline-flex;
+    padding: 0 13px;
+    align-items: center;
+    height: 100%;
+    line-height: 100%;
+    text-align: center;
+   
+    margin: 3px;
+    font-size: 18pt;
+    font-family: 'Bahnschrift SemiBol';
+    color: white;
+}
+.toolbar-container .title img{
+    height: 80%;
+    padding: 10px;
+}
+.toolbar-container button {
+    background: transparent;
+    border: none;
+    margin: 5px 10px;
+    font-size: 18pt;
+    height: 80%;
+}
+
+.toolbar-container button:hover {
+    background: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+
+.toolbar-container button img {
+    height: 100%;
+}
