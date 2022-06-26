@@ -8,8 +8,6 @@ In addition to that also redux-persist is used to store the wishlist in the brow
 
 ## Available Scripts
 
-In the project directory, you can run:
-
 ### `npm start`
 
 Runs the app in the development mode.\
