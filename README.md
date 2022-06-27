@@ -1,4 +1,4 @@
-# The GameShop Assessment
+# The GameShop
 This is the GameShop webshop. The webshop sells retro (SNES) games. There are 15 different games you can add to your favorites. 
 By clicking on the "favorites" icon you can check out your favorites and increase / decrease the quantity. 
 
