@@ -4,8 +4,6 @@ import ArticleOverview from './features/articleOverview/ArticleOverview'
 import './App.css';
 import SidePane from "./features/sidePane/SidePane";
 
-
-
 const App: React.FC<{}> = props => {
   return (
     <div className="main-wrapper">

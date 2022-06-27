@@ -4,7 +4,7 @@ import { selectPaneState, togglePane } from "../../state/pane/PaneSlice";
 import WishList from "../wishList/WishList";
 import './SidePane.css';
 
-const ArticleCard: React.FC<{}> = props => {
+const SidePane: React.FC<{}> = props => {
     const dispatch = useAppDispatch()
     const showPane = useAppSelector(selectPaneState);
   return (
@@ -21,4 +21,4 @@ const ArticleCard: React.FC<{}> = props => {
   );
 };
 
-export default ArticleCard
+export default SidePane
